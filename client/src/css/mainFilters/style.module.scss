@@ -1,0 +1,38 @@
+.filter_wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0;
+}
+
+.filter_heading {
+  font-size: 20px;
+
+}
+
+.filter_button {
+  border: solid 2px rgb(118, 106, 200);
+  border-radius: 10px;
+  padding: 3px 10px;
+  height: 100%;
+  max-height: 50px;
+  background: none;
+  transition: .3s;
+  &:hover {
+    background: rgb(178, 251, 56);
+    color: rgb(118, 106, 200);
+  }
+}
+
+.active {
+  background: rgb(178, 251, 56);
+}
+
+.filter_button_reset {
+  border: solid 2px red;
+  transition: .3s;
+  &:hover {
+    background: red;
+    border: solid 2px black;
+    color: black !important;
+  }
+}

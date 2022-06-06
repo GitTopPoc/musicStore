@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "music-store-ae8ca",
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

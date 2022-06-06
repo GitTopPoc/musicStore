@@ -1,0 +1,39 @@
+.filter_wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0;
+}
+
+.filter_heading {
+  font-size: 20px;
+}
+
+.filter_button {
+  border: solid 2px #766ac8;
+  border-radius: 10px;
+  padding: 3px 10px;
+  height: 100%;
+  max-height: 50px;
+  background: none;
+  transition: 0.3s;
+}
+.filter_button:hover {
+  background: #b2fb38;
+  color: #766ac8;
+}
+
+.active {
+  background: #b2fb38;
+}
+
+.filter_button_reset {
+  border: solid 2px red;
+  transition: 0.3s;
+}
+.filter_button_reset:hover {
+  background: red;
+  border: solid 2px black;
+  color: black !important;
+}
+
+/*# sourceMappingURL=style.module.css.map */
