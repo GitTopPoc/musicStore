@@ -12,7 +12,6 @@ const InstrumentList = () => {
     let [kalimbaActive, setKalimbaActive] = useState(false)
     let [bendirActive, setBendirActive] = useState(false)
 
-    let [currentFilter, setCurrentFilter] = useState(null)
     let [from, setFrom] = useState(0)
     let [to, setTo] = useState(8)
     useEffect(() => {
@@ -35,6 +34,7 @@ const InstrumentList = () => {
     }, [guitarActive, pianoActive, drumActive, kalimbaActive, bendirActive])
 
     let filter = (instrument) => {
+        // eslint-disable-next-line default-case
         switch (instrument) {
             case "guitar" :
                 setGuitarActive(true)

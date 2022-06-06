@@ -18,11 +18,11 @@ const Footer = () => {
                 <div className={style.footer_element}>
                     <p className={style.heading}>Social Links</p>
                     <div className={style.social_links}>
-                        <a target="_blank" href="https://www.facebook.com/"><FontAwesomeIcon className={style.social}
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/"><FontAwesomeIcon className={style.social}
                                                                                              icon={faFacebook}/></a>
-                        <a target={"_blank"} href="https://www.instagram.com/"><FontAwesomeIcon className={style.social}
+                        <a target={"_blank"} rel="noopener noreferrer" href="https://www.instagram.com/"><FontAwesomeIcon className={style.social}
                                                                                                 icon={faInstagram}/></a>
-                        <a target={"_blank"} href="https://www.github.com/"><FontAwesomeIcon className={style.social}
+                        <a target={"_blank"} rel="noopener noreferrer" href="https://www.github.com/"><FontAwesomeIcon className={style.social}
                                                                                              icon={faGit}/></a>
 
                     </div>

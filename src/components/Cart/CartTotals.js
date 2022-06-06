@@ -19,7 +19,7 @@ export default function CartTotals({ value }) {
             </Link>
             <h5>
               <span className="text-title ">total:</span>
-              <strong>{cartSubTotal} $</strong>
+              <strong>{cartSubTotal.toFixed(2)} $</strong>
             </h5>
 
             <h5>
